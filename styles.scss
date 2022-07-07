@@ -1,0 +1,251 @@
+// Colors
+$background-color1: #c0b39d;
+$background-color2: #879689;
+$background-color3: #ece0cd;
+$color-greywhite: #f1f1f1;
+$color-lightblack: #1f1f1f;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-darkgreen: #6d7b6f;
+$color-lightgreen: #879689;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Oxygen:wght@300&display=swap');
+$italiana-font: 'Italiana', serif;
+$oxygen-font: 'Oxygen', sans-serif;
+
+
+h1 {
+    font-family: $italiana-font;
+}
+
+h2,
+h3,
+p {
+    font-family: $oxygen-font;
+}
+
+
+.intro {
+    background-color: $background-color1;
+    padding: 4rem 1rem;
+    position: relative;
+
+}
+
+header {
+    background-color: $background-color3;
+    padding-bottom: 4rem;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    background-color: $color-lightblack;
+    color: $color-white;
+    padding: 4.5rem 2rem 1.5rem 0;
+    margin-top: -2rem;
+    text-align: end;
+    font-size: 2.6rem;
+    font-style: italic;
+}
+
+header h2 {
+    background-color: $color-greywhite;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 0 7rem 0;
+    margin-top: -2rem;
+    margin-bottom: -4rem;
+    color: rgba(0, 0, 0, .5);
+}
+
+header h2 abbr {
+    text-decoration: none;
+}
+
+.summary p:nth-of-type(1) {
+    position: absolute;
+    right: 50px;
+    bottom: 425px;
+    font-size: .8rem;
+    max-width: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+.summary p:nth-of-type(2) {
+    position: absolute;
+    right: 45px;
+    bottom: 400px;
+    font-size: .7rem;
+    z-index: 1;
+    text-align: center;
+    color: rgba(0, 0, 0, .5);
+
+}
+
+.summary p:nth-of-type(2) a {
+    color: $color-black;
+}
+
+.extra1::before {
+    content: url('images/flower_small.png');
+    position: absolute;
+    left: 30px;
+    top: 158px;
+}
+
+.preamble {
+    background-color: $background-color2;
+    margin: -1.2rem -1rem -3.9rem -1rem;
+    padding: 3.5rem 0;
+}
+
+.preamble h3 {
+    background-color: $color-black;
+    position: absolute;
+    color: $color-white;
+    margin: -4.5rem 0 0 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.preamble p {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.preamble p abbr {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.extra2::before {
+    content: url('images/bird-small.png');
+    position: absolute;
+    right: 16px;
+    bottom: 54%;
+}
+
+
+
+.explanation {
+    background-color: $background-color3;
+    margin-top: -1.2rem;
+    padding: 3rem 0;
+}
+
+.explanation h3 {
+    background-color: $color-black;
+    position: absolute;
+    color: $color-white;
+    margin: -3rem 0 0 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.explanation p {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.explanation p abbr {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.participation {
+    background-color: $background-color1;
+    margin-top: -1.2rem;
+    padding: 3rem 0;
+}
+
+.participation h3 {
+    background-color: $color-black;
+    position: absolute;
+    color: $color-white;
+    margin: -4rem 0 0 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.participation p {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.participation p abbr {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.participation a {
+    color: $color-black;
+}
+
+.benefits {
+    background-color: $background-color2;
+    margin-top: -1.2rem;
+    padding: 3rem 0;
+}
+
+.benefits h3 {
+    background-color: $color-black;
+    position: absolute;
+    color: $color-white;
+    margin: -4rem 0 0 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.benefits p {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.benefits p abbr {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+@media (min-width: 640px) {
+    .sidebar {
+        position: absolute;
+        right: 0;
+        bottom: -26%;
+    }
+
+
+    header h2 {
+        font-size: 1.8rem;
+    }
+
+
+}
+
+@media (min-width: 960px) {
+    .sidebar {
+        position: absolute;
+        right: 0;
+        bottom: -26%;
+    }
+
+    header h1 {
+        font-size: 5rem;
+        padding-right: 10rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .extra1::before {
+        content: url('images/flower.png');
+        position: absolute;
+        left: 30px;
+        top: 158px;
+    }
+}
