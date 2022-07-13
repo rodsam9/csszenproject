@@ -244,23 +244,11 @@ footer a {
 }
 
 @media (min-width: 640px) {
-  .sidebar {
-    position: absolute;
-    right: 0;
-    bottom: -26%;
-  }
-
   header h2 {
     font-size: 1.8rem;
   }
 }
 @media (min-width: 960px) {
-  .sidebar {
-    position: absolute;
-    right: 0;
-    bottom: -26%;
-  }
-
   header h1 {
     font-size: 5rem;
     padding-right: 10rem;
