@@ -189,6 +189,36 @@ header h2 abbr {
   font-weight: 700;
 }
 
+.requirements {
+  background-color: #ece0cd;
+  margin-top: -1.2rem;
+  padding: 3rem 0;
+}
+
+.requirements h3 {
+  background-color: #000000;
+  position: absolute;
+  color: #ffffff;
+  margin: -4rem 0 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.requirements p {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.requirements p abbr {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.requirements a {
+  color: #000000;
+  font-weight: bold;
+}
+
 @media (min-width: 640px) {
   .sidebar {
     position: absolute;
