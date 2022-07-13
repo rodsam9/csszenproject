@@ -219,6 +219,30 @@ header h2 abbr {
   font-weight: bold;
 }
 
+footer {
+  background-color: #879689;
+  padding: 10px 0 10px 15px;
+}
+
+footer a {
+  color: #000000;
+}
+
+.sidebar {
+  background-color: #c0b39d;
+  padding: 10px 0 10px 15px;
+}
+
+.wrapper h3 {
+  color: #000000;
+}
+
+.wrapper a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 @media (min-width: 640px) {
   .sidebar {
     position: absolute;
